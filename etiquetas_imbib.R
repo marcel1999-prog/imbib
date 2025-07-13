@@ -97,4 +97,4 @@ label <- fb %>%
 label %>% label_print(mode = "preview")
 
 # Exportar a PDF con 12 etiquetas por página
-label %>% label_print(mode = "complete", filename = "imbibi", nlabel = 12)
+label %>% label_print(mode = "complete", filename = "pdf_etiquetas", nlabel = 12)
